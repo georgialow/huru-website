@@ -1,0 +1,885 @@
+body {font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; border-radius: 50%;
+background-color: #fff;
+overflow-x: hidden;
+
+    }
+
+
+/*nav bar--------------------------*/
+
+
+
+.navbar {
+    width: 100vw;
+    background-color: #ffff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 100;
+    
+}
+
+h2 {
+    font-size: 12px;
+}
+
+.nav-item {
+    margin: 1em;
+    display: flex;
+    float: right;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}
+
+.nav-a  {
+    justify-content: space-between;
+    padding: 25px;
+     
+}
+
+
+
+.containers {
+    width: 90%;
+    margin: 0 auto;
+    
+    
+}
+
+
+
+a:hover {
+    color: #000;
+}
+
+
+
+
+a {
+    color: #a0a0a2;
+    text-decoration: none
+}
+
+.column p {
+    font-weight: 500;
+}
+ 
+.column2 p {
+    font-weight: 500;
+}
+
+
+ 
+
+
+
+body, html {
+    height: 100%;
+}
+
+
+/*hero image--------------------------*/
+
+.hero-image {
+    background-image: url(../Images/Hero-banner.jpg);
+    height: 610px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.hero-image2 {
+    background-image: url(../Images/hero2.JPG);
+    height: 610px;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -135%);
+  color: #D8D8DA;
+}
+
+.hero-text2 {
+  text-align: center;
+  position: relative;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -390%);
+  color: #fff;
+}
+
+.italic {
+  font-style: italic;
+    font-weight: 90;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    color: white;
+    
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 80;
+}
+
+.shop-button {
+    font-size: 20px;
+    font font-weight: 70;
+    color: #D8D8DA;
+}
+/*ARROW--------------------------*/
+
+.arrow {
+  border: solid #a0a0a2;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+    
+    
+}
+
+.container {
+    
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+}
+
+.column {
+    padding: 30px 20px 20px 20px;
+    
+}
+
+.column2 {
+    padding: 20px;
+}
+
+
+
+hr {
+    width: 70vw;
+    position: relative;
+    
+}
+
+/*instagram--------------------------*/
+
+.followus {
+    text-align: center;
+    padding: 50px 20px 0px 20px;
+    
+}
+
+.instagram-link:hover {
+    color: #545657;
+    text-align: center;
+}
+
+.instaimages {
+    display: inline-flex;
+    
+    justify-content: center;
+   padding: 40px 20px 40px 20px;
+    
+}
+
+.mainimage {
+    padding-right: 15px;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+.container4 {
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.fontsize {
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    padding: 40px;
+    
+}
+
+.mainimage {
+    -webkit-filter: brightness(100%);
+}
+
+.mainimage:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+/*SHOP--------------------------*/
+   
+.reef-ring {
+    position: absolute;
+    
+
+}
+
+.reef-ring2 {
+    position:relative;
+    opacity: 0;
+    
+}
+    
+.reef-ring2:hover {
+    opacity: 1;
+}
+
+.paua-earrings {
+    position: absolute;
+}
+
+.paua-earrings2 {
+    position: relative;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    
+}
+
+.paua-earrings2:hover {
+    opacity: 1;
+}
+
+.column img {
+    width: 250px; 
+    height: 350px;
+    
+}
+
+.column2 img {
+    width: 250px; 
+    height: 350px;
+    
+}
+
+.rec-signet {
+    position: absolute;
+}
+
+.rec-signet2 {
+    position: relative;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+.rec-signet2:hover {
+    opacity: 1;
+}
+
+.hex {
+    position: absolute;
+}
+
+.hex2 {
+    position: relative;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+.hex2:hover {
+    opacity: 1;
+}
+
+.rock {
+    position: absolute;
+}
+
+.rock2 {
+    position: relative;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+.rock2:hover {
+    opacity: 1;
+}
+
+.necklace {
+    position: absolute;
+}
+
+.necklace2 {
+    position: relative;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+.necklace2:hover {
+    opacity: 1;
+}
+
+.paua-signet {
+    position: absolute;
+}
+
+.paua-signet2 {
+    position: relative;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+.paua-signet2:hover {
+    opacity: 1;
+}
+
+.wavyring {
+    position: absolute;
+}
+
+.wavyring2 {
+    position: relative;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+.wavyring2:hover {
+    opacity: 1;
+}
+
+.shop-button:hover {
+    color: #fff;
+}
+
+.align {
+    text-align:start;
+    padding: 0px 0px 10px 0px;
+    
+    
+}
+
+/*ABOUT--------------------------*/
+
+.me {
+    width: 500px;
+    height: 500px;
+   
+    padding: 20px;  
+   
+}
+
+#about {
+    text-align: start;
+}
+
+.container2 {
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-bottom: 70px;
+    text-align: left;
+    display: flex;
+    
+    
+    
+}
+
+#info {
+    display: inline-block;
+    width: 500px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 10px 40px 20px 20px;
+    
+    
+}
+
+h5 {
+    text-align:center;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #a0a0a2;
+    
+}
+
+.align2 {
+    font-weight: 150;
+}
+
+/*FOOTER--------------------------*/
+
+
+.container3 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.footer{
+  width: 100%;
+  background-color: #24262b;
+  color: white;
+  padding: 30px;
+  
+    
+}
+
+.row-f {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.footer li  {
+    font-size: 12px;
+    text-justify: auto;
+    
+}
+
+.footer ul {
+    list-style: none;
+    
+}
+
+.footer h6 {
+    font-size: 16px;
+
+}
+
+.footer p {
+    font-size: 12px;
+    color: #a0a0a2;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 20px 40px;
+}
+
+.footer a {
+    line-height: 30px;
+     
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+
+
+/*hamburger--------------------------*/
+ input[type="checkbox"] {
+        display: none;
+    }
+
+.mobile-hamburger {
+    display: none;
+}
+
+/*photocollapse--------------------------*/
+
+
+/*media queries--------------------------*/
+@media screen and (max-width: 900px) {
+  
+     #info {
+        font-size: 14px;
+         display: block;
+        padding-left: 15px;
+         width: 50%;
+    }
+    
+    
+  }
+
+@media(max-width:768px){
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }    
+}
+
+@media(max-width:820px){
+    
+        .me {
+        width: 550px;
+        height: 550px;
+        justify-content: center;
+        
+    }
+    
+     
+      .container2 {
+        display: block;
+        width: 95em;
+          margin-left: 20px;
+          margin-right: 20px;
+        
+        
+    }
+    
+}
+
+@media(max-width:574px){
+    .footer-col {
+        width: 90%;
+        
+        
+    }    
+    
+    .footer {
+        width: 80%;
+    }
+    
+        .me {
+        width: 350px;
+        height: 350px;
+        
+    }
+    
+     
+      .container2 {
+        display: block;
+        width: 45em;
+        
+    }
+    
+    .hero-image2 {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .nav-item .nav-li {
+        display: none;
+    
+    }
+    .nav-item {
+        display: block;
+    }
+   
+    .mobile-nav {
+        background-color: rgba(0, 0, 0, 0.85);
+        height: 9em;
+        padding-top: 6em;
+        padding-bottom: 1.5em;
+        display: none;
+    }
+    
+    ul.nav-item li {
+        padding: 1em 0;
+    }
+    
+    .nav-a {
+        color: #fff;
+        
+    }
+    
+    .mobile-hamburger {
+        display: block;
+        cursor: pointer;
+        padding: 1.5em 0;
+        margin-right: 1em;
+    }
+    
+    .menu-lines {
+        height: 0.2em;
+        width: 1.5em;
+        background-color: #a0a0a2;
+        border-radius: 20em;
+        margin: 0.23em 0;
+    }
+    
+    #toggle:checked + .mobile-nav {
+        display: block;
+    }
+   
+    .row{
+        flex-flow: row wrap;
+        align-content: center;
+    }
+
+    .column{
+            flex: 1 50%;
+            padding: 0px 0px 15px 0px;
+       
+    }
+    
+    .column img {
+        width: 165px;
+        height: 235px;
+    }
+    
+    .column2 {
+         flex: 1 50%;
+            padding: 0px 0px 15px 0px;
+    }
+
+    .column2 img {
+          width: 165px;
+        height: 235px;
+        
+    }
+    
+    .column h5 {
+        font-size: 13px;
+    }
+    
+    .column2 h5 {
+        font-size: 13px;
+    }
+    
+    .column h6 {
+        font-size: 12px;
+    }
+    
+    .column2 h6 {
+        font-size: 12px;
+    }
+    
+      .column p {
+        font-size: 12px;
+    }
+    
+    .column2 p {
+        font-size: 12px;
+    }
+    
+    .followus a {
+        font-size: 12px;
+        white-space: nowrap;
+        justify-content: center !important;
+        align-content: center !important;
+    }
+    
+    .instaimages {
+        overflow-x: scroll;
+        align-content: center;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+     .footer p {
+        font-size: 10px;
+    }
+    
+    
+    
+    #info {
+        font-size: 13px;
+          display: block;
+        padding-left: 15px;
+         width: 50%;
+    }
+    
+    .hero-image2 {
+    background-image: url(../Images/hero2.JPG);
+    height: 770px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+    
+    .container2 {
+        display: block;
+        
+    }
+    
+     .me {
+        width: 350px;
+        height: 350px;
+        
+    }
+    
+     
+      .container2 {
+        display: block;
+        width: 45em;
+        
+    }
+    
+    .container4 {
+        box-sizing: border-box;
+    }
+    
+    .container3 {
+        box-sizing: border-box;
+    }
+
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+
+
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    h3 {
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+    
+   .italic {
+    font-style: italic;
+    font-weight: 90;
+    font-size: 12px;
+}
+
+    .shop-button {
+        font-size: 20px;
+        font-weight: 60;
+    }
+    
+    .arrow {
+     border: solid white;
+     border-width: 0 3px 3px 0;
+     display: inline-block;
+     padding: 3px;
+     }
+
+
+    .right {
+     transform: rotate(-45deg);
+     -webkit-transform: rotate(-45deg);
+     }
+
+   .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+     }
+
+   .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    }  
+
+  .down {
+   transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+   }
+  
+    
+    #info {
+        font-size: 12px;
+          display: block;
+        padding-left: 15px;
+         width: 50%;
+    }
+    
+    a:hover {
+        color: #a0a0a2;
+    }
+    
+      .container2 {
+        display: block;
+        
+    }
+ 
+      .container2 {
+        display: block;
+        width: 45em;
+        
+    }
+    
+    .container4 {
+        box-sizing: border-box;
+    }
+    
+    .mainimage {
+        width: 90px;
+        height: 90px;
+        padding-right: 5px;
+    }
+    
+}
+   
+@media screen and (max-width: 375px){
+    .container2 {
+        font-size: 13px;
+        padding top: 20px;
+    }
+    
+    
+    
+    .me {
+        width: 290px;
+        height: 290px;
+        padding-left: 10px;
+    }
+    
+    .footer {
+        font-size: 10px;
+    }
+    
+    .container3 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+   }
+    
+   
+}
